@@ -2,11 +2,12 @@ using System;
 using System.Collections.Generic;
 
 using Sioat.Optimize;
-
+using UnityEngine.Scripting;
 using static Sioat.Benchmark.TestData;
 
 namespace Sioat.Benchmark.Collections
 {
+    [Preserve]
     public class Stack_Foreach_Test
     {
         public static volatile int result;

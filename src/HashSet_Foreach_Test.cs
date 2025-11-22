@@ -1,9 +1,10 @@
 using Sioat.Optimize;
-
+using UnityEngine.Scripting;
 using static Sioat.Benchmark.TestData;
 
 namespace Sioat.Benchmark.Collections
 {
+    [Preserve]
     public class HashSet_Foreach_Test
     {
         public static volatile int result;
